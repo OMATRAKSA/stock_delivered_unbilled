@@ -103,7 +103,7 @@ def validate_invoiced_first(self):
 			frappe.throw(
 				_(
 					"Row #{0}: item {1} of {2} was already invoiced on {3}. "
-					"Create the Delivery Note from the invoice instead: open {3} and click Create → Delivery."
+					"Create the Delivery Note from the invoice instead: open {3} and click Create → Delivery Note."
 				).format(
 					item.idx,
 					frappe.bold(item.item_code),
